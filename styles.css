@@ -1,0 +1,39 @@
+/* reset and general style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-background: hsl(0, 0%, 80%);
+  --secondary-background: hsl(0, 0%, 100%);
+}
+html,
+body {
+  width: 100%;
+  background-color: var(--secondary-background);
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  width: 90%;
+}
+.wrapper {
+  width: 30%;
+}
+
+/* Body */
+
+.box {
+  background-color: var(--secondary-background);
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
