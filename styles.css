@@ -16,11 +16,11 @@
   --blue-facebook: #385185;
 
   font-size: 62.5%;
+  font-family: sans-serif;
 }
 html,
 body {
   width: 100%;
-  height: 100%;
   background-color: var(--secondary-background);
 }
 a {
@@ -55,7 +55,6 @@ a {
 .container-separator span {
   color: var(--gray-placeholder);
   font-size: 1.1rem;
-  font-family: sans-serif;
   margin-inline: 1.3rem;
 }
 /* Body */
@@ -138,7 +137,6 @@ main .container {
   text-align: center;
   color: var(--blue-facebook);
   gap: 1rem;
-  font-family: sans-serif;
 }
 
 #login .login-facebook a + a {
@@ -150,21 +148,21 @@ main .container {
   width: 1.3rem;
 }
 
-#login .forget-password {
+#login .register {
   margin-block: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#login .forget-password p {
+#login .register p {
   color: var(--black-paragraph);
   font-weight: 400;
-  font-size: 1.4rem;
+  font-size: 1.1rem;
 }
-#login .forget-password a {
+#login .register a {
   color: var(--blue-button);
   font-weight: 400;
-  font-size: 1.4rem;
+  font-size: 1.1rem;
 }
 
 #login .download-store {
@@ -174,7 +172,7 @@ main .container {
   justify-content: center;
 }
 #login .download-store p {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   color: var(--black-paragraph);
   padding: 0.8rem;
 }
@@ -186,4 +184,21 @@ main .container {
 }
 #login .download-store .logos img {
   width: 11rem;
+}
+
+/* footer */
+
+footer .container-footer {
+  color: var(--gray-placeholder);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10rem;
+  gap: 2rem;
+}
+footer select {
+  color: var(--gray-placeholder);
+  border: none;
+
+  width: 85%;
 }
