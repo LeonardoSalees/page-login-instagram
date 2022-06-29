@@ -10,66 +10,69 @@
     <title>Instagram</title>
   </head>
   <body>
+    <main class="container">
+      <section id="main" class="wrapper">
+        <div id="img" class="img-celular">
+          <img src="./assets/instagram-celular.png" alt="" />
+        </div>
+        <div id="login" class="wrapper">
+          <div class="box">
+            <header>
+              <img src="./assets/instagram-logo.png" alt="" />
+            </header>
+            <form action="">
+              <label class="sr-only" for="username">login</label>
+              <input
+                id="username"
+                type="text"
+                name="username"
+                placeholder="Número de telemóvel, nome de utilizador ou e-mail"
+              />
+              <label class="sr-only" for="">password</label>
+              <input
+                type="password"
+                name="password"
+                placeholder="Palavra-passe"
+              />
+            </form>
 
-    <div class="container">
-      <section id="main-img" class="wrapper">
-        <div>
-          <img src="./assets/instagram-celular.jpg" alt="" />
+            <button>iniciar sessão</button>
+
+            <div class="container-separator">
+              <div class="line-separator"></div>
+              <span>OU</span>
+              <div class="line-separator"></div>
+            </div>
+
+            <div class="login-facebook">
+              <a href="#">
+                <img src="./assets/facebook-logo.webp" alt="Logo do Facebook" />
+                Iniciar sessão com o Facebook
+              </a>
+              <a href="#">Esqueceste-te da palavra-passe?</a>
+            </div>
+          </div>
+          <div class="forget-password box">
+            <p>
+              Não tens uma conta?
+              <a href="">Regista-te.</a>
+            </p>
+          </div>
+          <div class="download-store">
+            <p>Obtém a aplicação.</p>
+            <div class="logos">
+              <img
+                src="./assets/apple-button.png"
+                alt="Logo da apple-store - download"
+              />
+              <img
+                src="./assets/googleplay-button.png"
+                alt="logo da play-store - download"
+              />
+            </div>
+          </div>
         </div>
       </section>
-
-      <section id="login" class="wrapper">
-        <div class="box">
-          <header>
-            <img src="./assets/instagram-logo.png" alt="" />
-          </header>
-          <form action="">
-            <label for="username">login</label>
-            <input
-              id="username"
-              type="text"
-              name="username"
-              placeholder="Número de telemóvel, nome de utilizador ou e-mail"
-            />
-            <label for="">password</label>
-            <input
-              type="password"
-              name="password"
-              placeholder="Palavra-passe"
-            />
-          </form>
-          <button>iniciar sessão</button>
-          <div class="container-separator">
-            <div class="line-separator"></div>
-            <span>OU</span>
-            <div class="line-separator"></div>
-          </div>
-          <a href="#">
-            <img src="./assets/Facebook-logo.png" alt="Logo do Facebook" />
-            Iniciar sessão com o Facebook
-          </a>
-          <a href="#">Esqueceste-te da palavra-passe?</a>
-        </div>
-        <div>
-          <p>
-            Não tens uma conta?
-            <a href="">Regista-te.</a>
-          </p>
-        </div>
-        <div>
-          <p>Obtém a aplicação.</p>
-          <div class="logos">
-            <img
-              src="./assets/apple-button.png"
-              alt="Logo da apple-store - download"
-            />
-            <img
-              src="./assets/googleplay-button.png"
-              alt="logo da play-store - download"
-            />
-          </div>
-        </div>
-      </section>
-    </div>
+    </main>
   </body>
 </html>
